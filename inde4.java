@@ -1,11 +1,10 @@
-public class inde4 {
-        public static void main(String[] args)
-    {
-        int p=10;
-        int q=p++-3;
-        int r=--q + ++p;
-        int s=p--*q++ +--r;
-        System.out.println(s             );
+package Assignment2;
 
-   }
+public class inde4 {
+    public static void main(String[] args)
+    {
+        int x=10;
+        int y=x--;
+        System.out.println("X:"+x +"\n"+"Y"+y);
+    }
 }
