@@ -9,7 +9,7 @@ public class VowelOrAlphabate {
         System.out.println("Enter The char");
         char ch = sc.next().charAt(0);
 
-        if (ch >= 'a' && ch <= 'x') {
+        if (ch >= 'a' && ch <= 'z') {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 System.out.println(ch + " is vowel in Lower Case");
             } else {
